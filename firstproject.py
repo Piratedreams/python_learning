@@ -33,8 +33,6 @@ def sentence_maker(phrase):
     else:
         return "{}.".format(capitalized)
 
-
-
 results = []
 
 while True:
@@ -42,7 +40,7 @@ while True:
     if user_input == '\end':
         break
     else:
-        results.append(user_input)
+        results.append(sentence_maker(user_input))
 
 
-print(results)
+print(' '.join(results))
