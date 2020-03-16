@@ -1,8 +1,6 @@
-temps = [221, 234, 340, 230]
+temps = [221, 234, 340, -999, 230]
 
-new_temps = []
+new_temps = [temp/ 10 for temp in temps if temp != -999]
 
-for temp in temps:
-    new_temps.append(temp / 10)
-    
+
 print(new_temps)
