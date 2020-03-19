@@ -5,8 +5,8 @@ myfile.close()
 
 
 # opening files using with
-with open('fruits.txt') as myfile:
-    content = myfile.read()
+with open('files/vegetables.txt') as myfile:
+    myfile.wrtie('tomato')
 
 print(content)
 
