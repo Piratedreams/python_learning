@@ -1,4 +1,7 @@
-def mean{*args}:
-    return sum(args) / len(args)
+myfile =  open("fruits.txt")
 
-print(mean(1, 3, 4))
+content = myfile.read()
+myfile.close()
+
+
+print(content)
