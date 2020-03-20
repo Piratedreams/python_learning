@@ -7,3 +7,5 @@ with open('files/vegetables.txt', 'w') as myfile:
 
 
 
+with open('files/fruits.txt', 'r') as file:
+    file.read()
